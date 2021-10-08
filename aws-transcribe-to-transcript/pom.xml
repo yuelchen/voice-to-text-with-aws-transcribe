@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yuelchen</groupId>
-  <artifactId>aws-transcribe-transcript</artifactId>
+  <artifactId>aws-transcribe-to-transcript</artifactId>
   <version>0.0.1</version>
   <name>aws-transcribe-to-transcript</name>
   
@@ -11,7 +11,6 @@
   </properties>
   
   <build>
-  	<finalName>aws-transcribe-to-transcript-${project.version}</finalName>
     <plugins>
       <plugin>
 		<artifactId>maven-assembly-plugin</artifactId>
@@ -32,7 +31,7 @@
 		      <descriptorRefs>
 		        <descriptorRef>jar-with-dependencies</descriptorRef>
 		      </descriptorRefs>
-		      <finalName>aws-transcribe-transcript-${project.version}</finalName>
+  			  <finalName>aws-transcribe-to-transcript-${project.version}</finalName>
 		      <appendAssemblyId>false</appendAssemblyId>
 		    </configuration>
 		  </execution>
