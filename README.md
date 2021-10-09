@@ -9,7 +9,7 @@ The output however is a JSON file and their console transcript only displays so 
 This works great for those who have very short recordings but not so great if your output is huge or needs to be automated or scaled. 
 Now you can use this Java project to easily parse large JSON outputs into transcripts in a fairly quick manner and similar to same output format as AWS Transcribe. 
 
-### Performance Metrics
+### Runtime Metrics
 Input File Size: 5.11 MB
 Output File Size: 133 KB
 - 1st run: 2311 milliseconds
