@@ -1,4 +1,4 @@
-# aws-transcribe-to-transcript
+# voice-to-text-with-aws-transcribe
 A Java project which parses the JSON file content from AWS Transcribe into a readable transcript. 
 
 ## About
